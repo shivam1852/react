@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 
 const Second = () => {
     const [ name, setName ] = useState('')
 
     function getInputData (e) {
+
         setName(e.target.value)
 
     }
